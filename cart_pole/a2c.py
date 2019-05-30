@@ -2,7 +2,7 @@
 #################
 This piece of code referenced
 https://github.com/rlcode/reinforcement-learning
-but also has 
+but also has bugs of none-soft max approach corrected
 #################
 """
 from .utils import actor_net, critic_net
