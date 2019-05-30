@@ -31,8 +31,8 @@ class A2C_Agent():
 		return np.random.choice(self.action_size, p = policy)
 
 	def regress(state, action, reward, next_state, done):
-		V_state = self.critic(state)
-		V_next_state = self.actor)_
+		V_state = self.critic(next)
+		V_next_state = self.actor)
 	
 		if done:
 			pass
