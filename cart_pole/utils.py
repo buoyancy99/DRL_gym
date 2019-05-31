@@ -18,7 +18,7 @@ class actor_net(nn.Module):
 		self.layers = nn.Sequential(
 			nn.Linear(in_C, 32),
 			nn.ReLU(),
-			nn.Linear(32, out_C)
+			nn.Linear(32, out_C),
 			nn.Softmax()
 		)
 
